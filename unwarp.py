@@ -1,5 +1,5 @@
-from infer import *
-from infer import unwarp as base_unwarp
+from .infer import *
+from .infer import unwarp as base_unwarp
 
 def unwarp(imgorg, wc_model_path=None, bm_model_path=None, compare=False):
     if wc_model_path == None:
