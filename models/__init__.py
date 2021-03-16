@@ -1,6 +1,6 @@
 import torchvision.models as models
-from models.densenetccnl import *
-from models.unetnc import *
+from .densenetccnl import *
+from .unetnc import *
 
 
 def get_model(name, n_classes=1, filters=64,version=None,in_channels=3, is_batchnorm=True, norm='batch', model_path=None, use_sigmoid=True, layers=3):
